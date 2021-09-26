@@ -63,12 +63,9 @@ class Product {
   }
 
   logProduct(product) {
-    console.log(`${this.name}is ${this.price} kr`);
+    console.log(`${this.name} is ${this.price} kr`);
   }
 }
 
-const items = new Product();
-const itemPrice = items.logProduct;
-
 const table = new Product("table", 1200);
-itemPrice(table);
+table.logProduct();
