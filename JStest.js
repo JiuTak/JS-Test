@@ -78,4 +78,4 @@ class Product {
 }
 
 const table = new Product("table", 1200);
-table.logProduct();
+table.logProduct()
